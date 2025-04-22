@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 
-import "./Navbar.css"
+import "./NavBar.css"
 import { useAuth } from "../../../context/authContext.tsx";
 
 export default function Navbar() {
