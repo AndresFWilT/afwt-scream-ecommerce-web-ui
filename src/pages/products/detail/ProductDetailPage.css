@@ -228,6 +228,7 @@
 
 .product-detail-actions button:not(.quantity-selector button):hover:not(:disabled) {
     background-color: var(--color-accent, #2c5282);
+    color: var(--color-text, #3182ce);
     transform: translateY(-1px);
 }
 
@@ -255,7 +256,7 @@
     gap: 0.5rem;
     padding: 0.5rem 1rem;
     background-color: var(--color-primary, #3182ce);
-    color: white;
+    color: var(--color-accent);
     border-radius: 8px;
     font-weight: 500;
     text-decoration: none;
@@ -264,6 +265,7 @@
 
 .login-to-add a:hover {
     background-color: var(--color-accent, #2c5282);
+    color: var(--color-text);
 }
 
 .out-of-stock {

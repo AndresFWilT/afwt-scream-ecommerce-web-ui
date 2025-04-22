@@ -62,7 +62,7 @@ export default function Navbar() {
                     {!loading && (
                         <div className="navbar-auth">
                             {isAuthenticated && user ? (
-                                <div className="afwt-ecommerce-flex afwt-ecommerce-items-center afwt-ecommerce-gap-4">
+                                <div className="afwt-ecommerce-flex afwt-ecommerce-items-center afwt-ecommerce-gap-3 afwt-ecommerce-flex-wrap">
                                     {user.roles.includes("CUSTOMER") && (
                                         <>
                                             <Link to="/cart" className="navbar-button navbar-button-outline">
