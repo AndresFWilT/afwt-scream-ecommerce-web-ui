@@ -86,7 +86,7 @@ export default function PurchaseHistoryHubPage() {
                                 <div className="purchase-summary-row afwt-ecommerce-mt-2">
                                     <Button
                                         onClick={() => openPurchaseDetail(purchase.id)}
-                                        className="admin-button admin-button-outline"
+                                        className="view-details-button"
                                     >
                                         View Details
                                     </Button>

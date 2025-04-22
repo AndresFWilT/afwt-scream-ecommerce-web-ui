@@ -310,7 +310,7 @@
 
 .view-details-button {
     background-color: var(--color-primary, #3182ce);
-    color: white;
+    color: var(--color-accent, #333);
     text-decoration: none;
     border: none;
     position: relative;
@@ -335,6 +335,7 @@
 
 .view-details-button:hover {
     background-color: var(--color-accent, #2c5282);
+    color: var(--color-text, #333);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -570,4 +571,15 @@
 .browse-products-button:focus-visible {
     outline: 2px solid var(--color-primary, #3182ce);
     outline-offset: 2px;
+}
+
+.admin-action-button {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: var(--color-text, #333);
 }
